@@ -1,0 +1,15 @@
+{
+  "name": "dance_wbsite_using_pug_75",
+  "version": "1.0.0",
+  "description": "dance website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mohit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  }
+}

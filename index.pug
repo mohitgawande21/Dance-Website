@@ -1,0 +1,46 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        div#logo
+          img(src="/static/logo.png")
+        ul 
+            li #[a(href="#") Home] 
+            li #[a(href="#") About ]
+            li #[a(href="#") Services ]
+            li #[a(href="#") Contact Us ]
+            li #[a(href="#") Classs info]
+            
+    section#introsection 
+      div Welcome to mohits's Dance Academy
+      div.small Life is better when you dance
+
+    section#sponsersection 
+      h3 Our for sponsors   
+
+    section#missionsection
+      h3 Our Mission
+      div#card          
+        div.card
+          p Dance Perfection
+            div.card-box
+              div.card-img 
+                img(src="static/1.jpg")
+        div.card
+          p Dance with classical
+              div.card-box
+                  div.card-img 
+                    img(src="static/2.png")
+        div.card
+          p Expert Teaching
+            div.card-box
+                div.card-img 
+                  img(src="static/3.jpg")
+    footer#footer 
+      p Our Footer is here
+    script
+      include ../static/index.js

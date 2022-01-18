@@ -1,0 +1,49 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+block style
+  style
+    include ../static/style.css
+block content
+  nav#navbar.top 
+      div#logo
+        img(src="/static/logo.jpg")
+      ul 
+          li #[a(href="/Home") Home] 
+          li #[a(href="#") About ]
+          li #[a(href="#") Services ]
+          li #[a(href="/contact") Contact Us ]
+          li #[a(href="#") Classs info]
+          
+  section#introsection 
+    div Welcome to mohits's Dance Academy
+    div.small Life is better when you dance
+
+  section#missionsection
+    h3 Our Mission
+    div#card          
+      div.card
+        p.size Dance Perfection
+          div.card-box
+            div.card-img 
+              img(src="static/1.png")
+              p We are having perfectionist at our academy
+      div.card
+        p.size Dance with classical
+            div.card-box
+                div.card-img 
+                  img(src="static/2.png")
+                  p Dance with classical as well as nw dance style
+      div.card
+        p.size Expert Teaching
+          div.card-box
+              div.card-img 
+                img(src="static/3.jpg")
+                p We are having experts at our center to teach
+
+  section#sponsersection 
+    h3 Our For Sponsors
+    div.sponser
+      img(src= '/static/logo1.jpg',class="spImage")
+      img(src= '/static/logo2.jpg',class="spImage")
+      img(src= '/static/logo3.jpg',class="spImage")
